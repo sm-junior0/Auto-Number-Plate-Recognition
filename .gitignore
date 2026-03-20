@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs (keep the directory but ignore CSV log contents)
+data/logs/*.csv
+
+# Plate output images
+data/plates/*.jpg
+data/plates/*.png
+
+# Environment variables
+.env
+.env.local

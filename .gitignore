@@ -28,11 +28,11 @@ Thumbs.db
 desktop.ini
 
 # Logs (keep the directory but ignore CSV log contents)
-data/logs/*.csv
+# data/logs/*.csv
 
-# Plate output images
-data/plates/*.jpg
-data/plates/*.png
+# # Plate output images
+# data/plates/*.jpg
+# data/plates/*.png
 
 # Environment variables
 .env
